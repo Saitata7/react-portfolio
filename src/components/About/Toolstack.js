@@ -15,7 +15,6 @@ function Toolstack() {
     const delay = 50; // Adjust the delay to control the speed
 
     let start = null;
-    let currentScroll = 0;
 
     function step(timestamp) {
       if (!start) start = timestamp;
