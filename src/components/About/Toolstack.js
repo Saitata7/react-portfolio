@@ -1,5 +1,4 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React, { useEffect } from "react";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -10,27 +9,55 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
+  useEffect(() => {
+    const container = document.getElementById("toolstack-container");
+    const scrollAmount = 1;
+    const delay = 50; // Adjust the delay to control the speed
+
+    let start = null;
+    let currentScroll = 0;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const elapsed = timestamp - start;
+
+      if (elapsed > delay) {
+        container.scrollLeft += scrollAmount;
+        start = timestamp;
+
+        if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+          container.scrollLeft = 0; // Reset to the beginning when reaching the end
+        }
+      }
+
+      window.requestAnimationFrame(step);
+    }
+
+    window.requestAnimationFrame(step);
+  }, []);
+
+  const toolstackContainer = {
+    overflowX: "auto",
+    whiteSpace: "nowrap",
+    paddingBottom: "20px",
+    position: "relative",
+  };
+
+  const toolIcons = {
+    display: "inline-block",
+    margin: "10px",
+    fontSize: "2rem",
+  };
+
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAnaconda />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col>
-    </Row>
+    <div id="toolstack-container" style={toolstackContainer}>
+      <span style={toolIcons}><SiMacos /></span>
+      <span style={toolIcons}><SiVisualstudiocode /></span>
+      <span style={toolIcons}><SiPostman /></span>
+      <span style={toolIcons}><SiSlack /></span>
+      <span style={toolIcons}><SiAnaconda /></span>
+      <span style={toolIcons}><SiIntellijidea /></span>
+    </div>
   );
 }
 
