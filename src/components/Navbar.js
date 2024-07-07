@@ -56,16 +56,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
@@ -104,7 +94,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/saitata/Portfolio"
+                href="https://github.com/saitata7"
                 target="_blank"
                 className="fork-btn-inner"
               >

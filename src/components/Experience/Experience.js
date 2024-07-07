@@ -2,14 +2,14 @@ import React, {useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ExperienceCards";
 import Particle from "../Particle";
-import ScrollToCenter from "./ScrollToCenter";
+// import ScrollToCenter from "./ScrollToCenter";
 
 function Experience() {
 
-  useEffect(() => {
-    // Scroll to the bottom of the page after the component has mounted
-    window.scrollTo(0, document.body.scrollHeight);
-  }, []);
+  // useEffect(() => {
+  //   // Scroll to the bottom of the page after the component has mounted
+  //   window.scrollTo(0, document.body.scrollHeight);
+  // }, []);
 
   return (
     <Container fluid className="project-section">
@@ -22,18 +22,13 @@ function Experience() {
         This is my professional experience and these projects have shaped my skillset and journey.
         </p>
         <Row>
-          {/* Mobile Version Scroll Icon */}
-          <Col md={1} className="d-md-none">
-            <ScrollToCenter /> 
-          </Col>
-
           <Col>
         <Row style={{ justifyContent: "center" }}>
         <h2 className="project-subheading">Work Experience</h2>
-          <Col md={12} className="project-card" style={{ marginTop:"250px", marginBottom: "120px" }}>
+          <Col md={12} className="project-card" style={{ marginBottom: "20px" }}>
             <ProjectCard 
               title="TeamCal Ai"
-              duration="Feb 2021 - May 2021 · 4 mos"
+              duration="April 2023 - May 2023 · 6 mos"
               description="At TeamCal Ai, a pioneer in AI-driven scheduling, I significantly enhanced the platform by developing seven key features, including real-time schedule statistics and automated email functionalities, utilizing PHP and CodeIgniter. 
               I led the design and implementation of two vital pages, boosting user engagement by 25% through advanced JavaScript and jQuery, aligning with our mission to simplify coordination across time zones and calendars. "
               description2="Additionally, I identified and resolved eighteen critical issues, markedly improving system reliability and user satisfaction, reinforcing our commitment to creating a seamless and stress-free scheduling experience for modern teams."
@@ -41,10 +36,10 @@ function Experience() {
             />
           </Col>
 
-          <Col md={12} className="project-card" style={{ marginBottom: "75px" }}>
+          <Col md={12} className="project-card" style={{ marginBottom: "20px" }}>
             <ProjectCard
               title="Ionixx Technologies"
-              duration="Apr 2021 - Sep 2022 · 1 yr 6 mos"
+              duration="Jan 2021 - Sep 2022 · 1 yr 9 mos"
               description="Ionixx Technologies is a leading IT solutions provider, helping both enterprises and startups to build digital products and solutions at scale.As a Java backend developer for the re-platform project, I played a key role in redesigning the existing 30% post-trade system into a new API-based system. 
               My responsibilities included writing backend code, integrating with multiple frameworks and APIs, and setting up the development environment. I performed unit and integration testing to ensure 100% validation of the application, using J-unit to develop and apply test cases."
               description2="In addition, I was responsible for creating API documentation, developing Jasper reports, updating Jira, and interacting with clients for new enhancements. I developed JOOQ and custom queries from existing projects, testing and integrating them into applications."
@@ -52,10 +47,10 @@ function Experience() {
             />
           </Col>
 
-          <Col md={12} className="project-card" style={{ marginBottom: "200px" }}>
+          <Col md={12} className="project-card" style={{ marginBottom: "20px" }}>
             <ProjectCard
               title="FXMKT Technologies"
-              duration="Jun 2023 - Sep 2023 · 4 mos"
+              duration="Dec 2020 - Sep 2021 · 6 mos"
               description="FXMKT technologies is a IT company. As a developer for a custom cloth design E-commerce website, I utilized XAMPP technology to develop both the front-end and back-end of the website, employing a robust stack that included MySQL, Boostrap , PHP, and React for a dynamic user experience."
               description2="The entire platform was deployed on AWS to ensure scalable, reliable, and efficient access to global users. My responsibilities extended to designing an intuitive user interface, integrating payment gateways for secure transactions, and developing a comprehensive database schema. "
               keywords="React.js | PHP | MySql | AWS"
@@ -66,14 +61,14 @@ function Experience() {
         </Col>
 
         {/* PC Version */}
-        <Col md={1} className="d-none d-md-block">
+        {/* <Col md={1} className="d-none d-md-block">
         <ScrollToCenter/>
-        </Col>
+        </Col> */}
 
         {/* ------------------------------------------------------------------------------------------------------ */}
 
-      <Col>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+       <Col>
+        <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
         <h2 className="project-subheading">Projects</h2>
           <Col md={12} className="project-card">
             <ProjectCard
@@ -83,7 +78,7 @@ function Experience() {
             />
           </Col>
 
-          <Col md={12} className="project-card" style={{ marginTop: "250px" }}>
+          <Col md={12} className="project-card" style={{ marginTop: "20px" }}>
             <ProjectCard
               title="Blog book"
               description="On Blog Book, you can easily create and manage your own blog, publish captivating posts, and gain visibility among a wide range of blog categories."
@@ -99,7 +94,7 @@ function Experience() {
             />
           </Col>
 
-          <Col md={12} className="project-card" style={{ marginTop: "250px" }}>
+          <Col md={12} className="project-card" style={{ marginTop: "20px" }}>
             <ProjectCard
               title="Wazrix-bot"
               description="AI-powered trading algorithm for WazirX. Buy low, sell high. Maximize profits by leveraging real-time market data and intelligent predictions."
@@ -107,7 +102,7 @@ function Experience() {
             />
           </Col>
 
-          <Col md={12} className="project-card"style={{ marginTop: "270px", marginBottom:"10px" }}>
+          <Col md={12} className="project-card"style={{ marginTop: "20px", marginBottom:"20px" }}>
             <ProjectCard
               title="Object detection using TensorFlow"
               description="Object detection using TensorFlow leverages deep learning to identify and locate objects within images. 
@@ -116,7 +111,7 @@ function Experience() {
             />
           </Col>
 
-        </Row>
+        </Row> 
         </Col>
         </Row>
       </Container>
