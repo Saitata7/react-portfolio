@@ -28,11 +28,11 @@ function Experience() {
           <Col md={12} className="project-card" style={{ marginBottom: "20px" }}>
             <ProjectCard 
               title="TeamCal Ai"
-              duration="April 2023 - May 2023 · 6 mos"
+              duration="April 2023 - Current"
               description="At TeamCal Ai, a pioneer in AI-driven scheduling, I significantly enhanced the platform by developing seven key features, including real-time schedule statistics and automated email functionalities, utilizing PHP and CodeIgniter. 
               I led the design and implementation of two vital pages, boosting user engagement by 25% through advanced JavaScript and jQuery, aligning with our mission to simplify coordination across time zones and calendars. "
               description2="Additionally, I identified and resolved eighteen critical issues, markedly improving system reliability and user satisfaction, reinforcing our commitment to creating a seamless and stress-free scheduling experience for modern teams."
-              keywords="PHP | Codeigniter | React.js | Javascript"
+              keywords="PHP | Codeigniter | React.js | Javascript | AWS | Gen Ai"
             />
           </Col>
 
