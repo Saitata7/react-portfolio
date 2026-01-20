@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -10,14 +9,11 @@ import {
   DiGit,
   DiJava,
   DiMysql,
-  DiAtlassian,
-  DiBitbucket,
   DiDocker,
   DiPhp,
 } from "react-icons/di";
 import {
   SiRedis,
-  SiFirebase,
   SiPostgresql,
   SiSpringboot,
   SiAngular,
