@@ -19,6 +19,15 @@ import {
   SiRedis,
   SiFirebase,
   SiPostgresql,
+  SiSpringboot,
+  SiAngular,
+  SiAmazonaws,
+  SiMicrosoftazure,
+  SiKubernetes,
+  SiGraphql,
+  SiTypescript,
+  SiJenkins,
+  SiJira,
 } from "react-icons/si";
 
 function Techstack() {
@@ -64,52 +73,67 @@ function Techstack() {
     <div ref={techStackRef} style={techstackContainer}>
       <Row style={techstackRow}>
         <Col xs={4} md={2} style={techIcons}>
-          <DiReact />
-        </Col>
-        <Col xs={4} md={2} style={techIcons}>
-          <DiJavascript1 />
-        </Col>
-        <Col xs={4} md={2} style={techIcons}>
           <DiJava />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <DiPhp />
+          <SiSpringboot />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <DiReact />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <SiAngular />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
           <DiPython />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
+          <SiTypescript />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <DiJavascript1 />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
           <DiNodejs />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <DiMysql />
-        </Col>
-        <Col xs={4} md={2} style={techIcons}>
-          <DiMongodb />
+          <SiGraphql />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
           <SiPostgresql />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <DiGit />
-        </Col>
-        <Col xs={4} md={2} style={techIcons}>
-          <SiFirebase />
+          <DiMysql />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
           <SiRedis />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <DiAtlassian />
+          <DiMongodb />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <DiBitbucket />
+          <SiAmazonaws />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <SiMicrosoftazure />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
           <DiDocker />
         </Col>
         <Col xs={4} md={2} style={techIcons}>
-          <CgCPlusPlus />
+          <SiKubernetes />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <DiGit />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <SiJenkins />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <SiJira />
+        </Col>
+        <Col xs={4} md={2} style={techIcons}>
+          <DiPhp />
         </Col>
       </Row>
     </div>

@@ -23,20 +23,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            A dedicated Full Stack Developer based in Jersey City, NJ. I hold a Master’s in Computer Science from Pace University.
-            My technical toolkit is extensive, featuring advanced proficiency in <span className="purple">Java, PHP, JavaScript, React.js, Node.js, and Python</span>, which I leverage to build and enhance dynamic web applications.
+            A Results-driven Java Full Stack Developer with 9+ years of progressive experience based in <span className="purple">Cincinnati, OH</span>. I specialize in designing, developing, and deploying enterprise-grade applications across FMCG, FinTech, and trading platform domains.
+            My technical expertise includes advanced proficiency in <span className="purple">Spring Boot, Spring WebFlux, reactive programming, microservices architecture, and cloud-native development using AWS and Azure</span>, which I leverage to build scalable and high-performance systems.
               <br />
-              <br />My career has provided me the opportunity to develop innovative solutions at <i>
-                <b className="purple"> TeamCal Ai  </b>
-              </i> in California, where I enhanced web applications using
-                <span className="purple"> React.js, Node.js and PHP </span>
-              , to crafting critical backend solutions for financial platforms at <i>
-                <b className="purple"> Ionixx Technologies </b>
-              </i> in India. 
-              enhancing user interfaces and backend functionalities. I excel in using technologies like <span className="purple">Spring Boot, GraphQL, and Flask</span> to deliver scalable and high-performance software solutions.
+              <br />My career has provided me the opportunity to work with Fortune 500 companies including <i>
+                <b className="purple"> Kroger </b>
+              </i> where I architected microservices handling 100K+ concurrent transactions, to pioneering AI-powered solutions at <i>
+                <b className="purple"> TeamCal AI </b>
+              </i> using Generative AI and LangChain, to engineering critical trading platform components at <i>
+                <b className="purple"> DriveWealth </b>
+              </i> handling $50B+ in annual trading volume. 
+              I excel in using technologies like <span className="purple">Spring Boot, Angular, GraphQL, Docker, Kubernetes, and AI/ML frameworks</span> to deliver scalable and mission-critical software solutions.
               <br />
               <br />
-              I am passionate about exploring new <span className="purple"> Web technologies, AI</span>, web technologies and applying them to solve real-world problems. With a keen eye for detail and a commitment to delivering high-quality results, I am always ready to tackle challenges and contribute to team success.
+              I am passionate about exploring new <span className="purple">Generative AI, microservices architecture, and cloud technologies</span> and applying them to solve real-world problems. With a track record of delivering high-performance systems with 99.9%+ uptime, I am always ready to tackle challenges and contribute to team success.
             </p>
           </Col>
 

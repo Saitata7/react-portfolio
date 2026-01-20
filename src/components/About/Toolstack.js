@@ -6,6 +6,13 @@ import {
   SiAnaconda,
   SiIntellijidea,
   SiMacos,
+  SiMicrosoftazure,
+  SiJenkins,
+  SiKubernetes,
+  SiDocker,
+  SiGithubactions,
+  SiPrometheus,
+  SiGrafana,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -51,11 +58,18 @@ function Toolstack() {
   return (
     <div id="toolstack-container" style={toolstackContainer}>
       <span style={toolIcons}><SiMacos /></span>
+      <span style={toolIcons}><SiIntellijidea /></span>
       <span style={toolIcons}><SiVisualstudiocode /></span>
       <span style={toolIcons}><SiPostman /></span>
+      <span style={toolIcons}><SiDocker /></span>
+      <span style={toolIcons}><SiKubernetes /></span>
+      <span style={toolIcons}><SiJenkins /></span>
+      <span style={toolIcons}><SiGithubactions /></span>
+      <span style={toolIcons}><SiMicrosoftazure /></span>
+      <span style={toolIcons}><SiPrometheus /></span>
+      <span style={toolIcons}><SiGrafana /></span>
       <span style={toolIcons}><SiSlack /></span>
       <span style={toolIcons}><SiAnaconda /></span>
-      <span style={toolIcons}><SiIntellijidea /></span>
     </div>
   );
 }
